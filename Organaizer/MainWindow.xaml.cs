@@ -34,11 +34,6 @@ namespace Organaizer
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            //var uri = new Uri(@"DarkStyle.xaml", UriKind.Relative);
-            //ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
-            //Application.Current.Resources.Clear();
-            //Application.Current.Resources.MergedDictionaries.Add(resourceDict);
-
             this.Background = new SolidColorBrush(Colors.Black);
 
             MainGrid.Background = new SolidColorBrush(Colors.Black);
@@ -58,18 +53,10 @@ namespace Organaizer
 
             ListViewTask.Background = new SolidColorBrush(Colors.Black);
             ListViewTask.Foreground = new SolidColorBrush(Colors.White);
-
-            
-
         }
            
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            //var uri = new Uri(@"Dictionary1.xaml", UriKind.Relative);
-            //ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
-            //Application.Current.Resources.Clear();
-            //Application.Current.Resources.MergedDictionaries.Add(resourceDict);
-
             this.Background = new SolidColorBrush(Colors.White);
 
             MainGrid.Background = new SolidColorBrush(Colors.White);
