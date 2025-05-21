@@ -1,0 +1,23 @@
+﻿<Application x:Class="Organaizer.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary> <!--подключение словаря ресурсов-->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+                <ResourceDictionary Source="DarkStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        <!--<style targettype="button">
+            <setter property="cursor" value="hand"/>
+            <setter property="fontfamily" value="segoe ui symbol"/>
+            <setter property="foreground" value="#333333"/>
+        </style>
+        
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="Padding" Value="5"/>
+        </Style>-->
+    </Application.Resources>
+</Application>
