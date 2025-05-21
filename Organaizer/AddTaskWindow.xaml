@@ -19,8 +19,6 @@
                  FontSize="14"
                  AcceptsReturn="True"
                  TextWrapping="Wrap"/>
-
-        <Label Content="Дата выполнения:" FontWeight="Bold"/>
         <Label Content="Дата и время выполнения:" FontWeight="Bold"/>
         <StackPanel Orientation="Horizontal" Margin="0 5 0 15">
             <DatePicker 
